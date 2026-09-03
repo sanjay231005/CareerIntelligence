@@ -1,61 +1,109 @@
-# Welcome to your OnSpace project
+# AI Career Platform Intelligence
 
-## How can I edit this code?
+An AI-powered Career & Meeting Intelligence platform designed to transform meeting content into structured, actionable insights. The project demonstrates the workflow from meeting/video input and transcription to sentiment analysis, summarization, action-item extraction, participant mapping, and intelligent reporting.
 
-There are several ways of editing your application.
+## 🚀 Live Demo
 
-**Use OnSpace**
+🔗 **Vercel:** https://career-intelligence-psi.vercel.app/
 
-Simply visit the [OnSpace Project]() and start prompting.
+🔗 **GitHub:** https://github.com/sanjay231005/CareerIntelligence.git
 
-Changes made via OnSpace will be committed automatically to this repo.
+## ✨ Features
 
-**Use your preferred IDE**
+### Milestone 1 — Text Ingestion & Baseline Sentiment
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in OnSpace.
+- Text input and ingestion
+- Video-to-transcript workflow
+- Transcript preprocessing
+- Tokenization
+- Stop-word removal
+- Lemmatization
+- Noise and punctuation filtering
+- VADER sentiment analysis
+- Positive, Negative and Neutral classification
+- Compound sentiment score
+- Sentiment visualization
+- Initial sentiment report
+- Validation workflow
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Milestone 2 — Summarization & Action Extraction
 
-Follow these steps:
+- Meeting summarization
+- Key-point extraction
+- Decision extraction
+- Action-item extraction
+- Participant identification
+- Responsibility mapping
+- Deadline identification
+- Priority classification
+- Action-item status tracking
+- Structured meeting intelligence
+- Meeting intelligence reports
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🔄 Core Workflow
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```text
+Meeting / Video
+       ↓
+Transcript
+       ↓
+Text Preprocessing
+       ↓
+Sentiment Analysis
+       ↓
+LLM Processing
+       ↓
+Structured Meeting Intelligence
+       ↓
+Summary + Key Points + Decisions
+       ↓
+Action Items + Participants
+       ↓
+Deadlines + Priorities
+       ↓
+Intelligence Report
 ```
 
-**Edit a file directly in GitHub**
+## 🎯 Project Objective
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The goal of **AI Career Platform Intelligence** is to demonstrate how AI can transform unstructured meeting and career-related information into meaningful, organized, and actionable intelligence using transcription, NLP, sentiment analysis, and LLM-based information extraction.
 
-**Use GitHub Codespaces**
+## 🛠️ Tech Stack
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- Lucide React
+- Recharts
+- Whisper
+- VADER Sentiment
+- LLM-based Processing
+- Vercel
+- Git & GitHub
 
-## How can I deploy this project?
+## 📊 Project Status
 
-Simply open [OnSpace]() and click on Share -> Publish.
+| Feature | Status |
+|---|---|
+| Milestone 1 — Text Ingestion & Baseline Sentiment | ✅ Completed |
+| Milestone 2 — Summarization & Action Extraction | ✅ Completed |
+| Responsive Web Design | ✅ Completed |
+| Vercel Deployment | ✅ Completed |
+
+> **Note:** This version is a frontend demonstration/prototype focused on showcasing the AI workflow and user experience.
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
+
+See the [`LICENSE`](LICENSE) file for details.
+
+## 🔗 Project Links
+
+- 🌐 **Live Demo:** https://career-intelligence-psi.vercel.app/
+- 💻 **GitHub Repository:** https://github.com/sanjay231005/CareerIntelligence.git
+
+---
+
+⭐ **If you find this project useful, consider giving the repository a star!**
